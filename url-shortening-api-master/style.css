@@ -1,0 +1,287 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 30px 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+ul li a:hover{
+    color: blue;
+    font-size: 20px;
+}
+
+nav .btn{
+    color: grey;
+    background-color:whitesmoke;
+    padding: 5px 25px ;
+}
+
+nav button{
+    background-color:  hsl(180, 66%, 49%);
+    border-radius: 20px;
+    padding: 5px 25px;
+}
+
+nav button:hover{
+    background-color: gray;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 40px;
+}
+
+header h1{
+   width: 53%;
+   font-size: 40px;
+}
+
+header p{
+    color: grey;
+    width: 60%;
+    gap: 2.0px;
+}
+
+.txt{
+    margin: 10px 30px;
+}
+
+header button{
+    background-color:  hsl(180, 66%, 49%);
+    padding: 7px 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+header button:hover{
+    background-color: grey;
+}
+
+header{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin: 30px 50px;
+
+}
+
+.input{
+   width: 800px;
+   margin-left: 100px;
+}
+
+main button{
+    padding: 10px;
+    background-color:hsl(180, 66%, 49%) ;
+    border-radius: 5px;
+    width: 150px;
+    padding-top: 30px;
+}
+
+main{
+    /* margin:  40px 500px ; */
+    background-color:  hsl(257, 27%, 26%);
+    display: flex;
+    padding: 30px;
+    gap: 10px;
+    margin: 70px 200px;
+    background-image: url(images/bg-shorten-desktop.svg);
+    /* margin: 40px;
+    margin-left: 150px; */
+    border-radius: 10px;
+}
+
+section{
+    background-color:darkgrey;
+    padding: 50px 0px;
+}
+
+section h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.Boost{
+    text-align: center;
+}
+
+.roll{
+    background-color: whitesmoke;
+}
+
+.text p{
+    color: grey;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.text h4{
+    margin: 10px 0px ;
+}
+
+.text-section .text{
+    margin: 10px 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.text-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 150px;
+}
+
+figure h1{
+    color: white;
+    text-align: center;
+}
+
+figure button{
+    background-color:  hsl(180, 66%, 49%);
+    border-radius: 20px;
+    padding: 5px 25px;
+    margin: 10px 750px;
+}
+
+figure{
+    background-color:hsl(257, 27%, 26%) ;
+    padding: 30px 60px ;
+    padding: 40px;
+    background-image: url(images/bg-boost-desktop.svg);
+}
+
+footer{
+    background-color:black;
+}
+
+footer h4{
+    color: white;
+    margin: 9px 0px;
+}
+
+footer li a{
+    color: white;
+}
+
+.cont li {
+    display: inline;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*media query */
+@media screen and (max-width:850px){
+    .none{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    nav button{
+        display: none;
+    }
+    header{
+        flex-direction: column-reverse;
+        padding: 15px;
+    }
+    header ul {
+        display: none;   
+    }
+    header h1{
+        width:100% ;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    header{
+        margin-right: 0px;
+    }
+    header p{
+        width: 80%;
+        margin-bottom: 0px;
+    }
+    header img{
+        width: 400px;
+        height: 400px;
+    }
+    header{
+        margin-right: 0px;
+    }
+    main .input{
+        width: 100%;
+        margin-left: 10px;
+        padding: 10px 0px;
+    }
+    main button{
+        padding: 10px;
+        border-radius: 10px;
+        margin-right: 20px;
+       padding-top: 20px;
+        width: 100%;
+    }
+    main{
+        width: 80%;
+        float: right;
+        margin-right: 20px;
+        flex-direction: column;
+    }
+    section{
+        padding: 30px 20px ;
+    }
+    .boost{
+        width: 150%;
+    }
+
+    .text-section{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .text p{
+        width: 100%;
+    }
+
+    .text-section .text{
+        width: 150%;
+        height: 100%;
+        margin-left: 170px;
+
+    }
+
+    figure button{
+        margin-left: 100px;
+    }
+
+    footer{
+        flex-direction:column-reverse ;
+        background-color: black;
+    }
+
+    .container{
+        display: inline;
+        margin: 0px 20px;
+        text-align: center;
+    }
+
+    .contain{
+    margin: 0xp 40px;
+    }
+}
+
+
